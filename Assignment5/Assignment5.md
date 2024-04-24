@@ -9,7 +9,7 @@
 # f.split()
 # g.slice()
 # Ans:
-# a. let str="HEY THERE"
+# a. let str="HEY T HERE"
 # console.log(str.toLowerCase());
 # b.let str="hey there"
 # console.log(str.toUpperCase());

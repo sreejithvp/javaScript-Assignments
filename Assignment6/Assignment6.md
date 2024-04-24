@@ -1,22 +1,7 @@
                          JavaScript
                          Assignment 6
 
-## Q1.Write short notes on Array methods with code example?
-### push()
-### pop()
-### shift()
-### unshift()
-### includes()
-### toString()
-### reverse()
-### join()
-### concat()
-### flat()
-### slice()
-### splice()
-
-## Ans. 
-
+### Q1.Write short notes on Array methods with code example?
 ## push()-Adds an elememt at the end of an array
 
 ```js 
@@ -24,70 +9,59 @@
  let newArr=arr.push("one")
  console.log(arr)
 ```
-
-## pop()-Deletes the last element of the array
+## pop() -Deletes the last element of the array
 
 ```js 
  let arr=[0,1,2,3,4,5,6]
  arr.pop()
  console.log(arr);
 ```
-
-## shift()-Eleminates the first element of the array it modifies the orginal array
+## shift() -Eleminates the first element of the array it modifies the orginal array
 
 ```js 
 let arr=[1,2,3,4,5,6]
  console.log(arr.shift());
  console.log(arr);
 ```
-
-## unshift()-Adds a new element at the first of an array
+## unshift() -Adds a new element at the first of an array
 
  ```js 
  let arr=[1,2,3,4,5,6]
  arr.unshift(0)
  console.log(arr);
  ```
-
-## includes()- Checks the array contains the value
+## includes() -Checks the array contains the value
 
 ```js 
  let arr=[1,2,3,4,5]
  console.log(arr.includes(7));
  ```
-
-## toString()- Converts a Array to string
+## toString() -Converts a Array to string
 
 ```js
  let arr=[1,2,3,4,5,6]
  console.log(arr.toString());
  ```
-
-
-## reverse()- Changing the position of each number of the given array to its opposite position from end   
+## reverse() -Changing the position of each number of the given array to its opposite position from end   
 
 ```js
  let arr=[6,5,4,3,2,1]
  console.log(arr.reverse());
 ```
-
-
-
-## join()-  takes all items in an iterable and joins them into one string
+## join() -Takes all items in an iterable and joins them into one string
 
 ```js
  let arr=[1,2,3,4,6,8]
  console.log(arr.join("_"));
 ```
 
-## concat()-  combines the text from multiple ranges and/or strings
+## concat() -combines the text from multiple ranges and/or strings
 
 ```js  let arr=[1,2,3]
  let arr2=[4,5,3]
  let arr3=[84,85,44]
  console.log(arr.concat(arr2,arr3));
 ```
-
 ## flat()- Flattens the input array into a new array
 
 ```js
@@ -95,16 +69,14 @@ let arr=[1,2,3,4,5,6]
  [1,2,3],[4,5,6], [7,8,9],[2,4,4], [13,14,[15,16]]]
  console.log(arr.flat(5));
  ```
-
-## slice()- Returns selected elements in an array, as a new array
+## slice() -Returns selected elements in an array, as a new array
 
 ```js
  let arr=[5,4,6,5,8,4]
  let slicedArray=arr.slice(0,4)
  console.log(slicedArray);
  ```
-
-## splice()- Used to add or remove elements of an existing array
+## splice() -Used to add or remove elements of an existing array
 
 ```js
  let arr=[5,4,8,79,32,41]

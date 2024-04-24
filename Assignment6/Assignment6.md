@@ -1,7 +1,7 @@
                          JavaScript
                          Assignment 6
 
-### Q1.Write short notes on Array methods with code example?
+# Q1.Write short notes on Array methods with code example?
 ## push()-Adds an elememt at the end of an array
 
 ```js 
@@ -84,10 +84,10 @@ let arr=[1,2,3,4,5,6]
  console.log(arr);
  ```
 
- ### Q2.
+ ## Q2.
  ![screenshot](./Screenshot(1).png)
 
-### Q3. Write a JavaScript function to check whether an `input` is an array.
+## Q3. Write a JavaScript function to check whether an `input` is an array.
 ## Ans. 
  ```js
  let array=[1,2,3,4,5,6,]
@@ -97,7 +97,7 @@ let arr=[1,2,3,4,5,6]
  console.log(isArr(array))
  ```
 
-### Q4. Write a JavaScript function that takes an array as an argument and returns the first element of the array.
+## Q4. Write a JavaScript function that takes an array as an argument and returns the first element of the array.
 ## Ans
  ```js
  let arr=[1,2,3,4,5,6,7,8,9]
@@ -108,7 +108,7 @@ let arr=[1,2,3,4,5,6]
  console.log(result);
  ```
 
-### Q5. Write a JavaScript function that takes an array as an argument and returns the last element of the array
+## Q5. Write a JavaScript function that takes an array as an argument and returns the last element of the array
 ## Ans
 ```js
 let arr=[1,2,3,4,5,6,7,8,9]
@@ -119,7 +119,7 @@ let arr=[1,2,3,4,5,6,7,8,9]
  console.log(result);
  ```
 
-### Q6. Write a simple JavaScript function to join all elements of the following array into a string.   sample array : myColor = ["Red", "Green", "White", "Black"];
+## Q6. Write a simple JavaScript function to join all elements of the following array into a string.   sample array : myColor = ["Red", "Green", "White", "Black"];
 ## Ans 
  ```js
  let arr=["Red", "Green", "White", "Black"]
@@ -130,7 +130,7 @@ let arr=[1,2,3,4,5,6,7,8,9]
  console.log(result);
  ```
 
-### Q7. Write a JavaScript program that accepts a number as input and inserts dashes (-) between each. For example, if you accept 025468 the output should be 0-2-5-4-6-8
+## Q7. Write a JavaScript program that accepts a number as input and inserts dashes (-) between each. For example, if you accept 025468 the output should be 0-2-5-4-6-8
 ## Ans 
 ```js
 let arr=[0,2,5,4,6,8]
@@ -141,7 +141,7 @@ let result=dashedArray(arr)
 console.log(result);
 ```
 
-### Q8. Write a JavaScript function that checks if the given number is even or odd then returns a Boolean value (use: arrow function, return keyword, ternary operator)
+## Q8. Write a JavaScript function that checks if the given number is even or odd then returns a Boolean value (use: arrow function, return keyword, ternary operator)
 ## Ans
 
 ```js
@@ -151,7 +151,7 @@ let isEven=(num)=>{
 isEven(99)
 ```
 
-### Q9. Create an array of guestlist. Write a javascript function that takes the user’s name as an argument and checks if it is there in the guestlist. If yes, return the string “Welcome” else, return “Sorry, good luck next time”.
+## Q9. Create an array of guestlist. Write a javascript function that takes the user’s name as an argument and checks if it is there in the guestlist. If yes, return the string “Welcome” else, return “Sorry, good luck next time”.
 ## Ans 
 
 ```js
@@ -164,7 +164,7 @@ let checkGuestList = (name) =>{
  // welcome
 ```
 
-### Q10.Write a javascript function that reverses a given number example: 123456789 => 987654321 (split(), reverse (), join())
+## Q10.Write a javascript function that reverses a given number example: 123456789 => 987654321 (split(), reverse (), join())
 ## Ans 
 ```js
 let num = 123456789
@@ -176,7 +176,7 @@ let toReverse= (number) => {
 console.log(toReverse(num));
 ```
 
-### Q11.Write a JavaScript function that accepts a string as a parameter and converts the first letter into upper case. Example: “Javascript” => “Javascript”
+## Q11.Write a JavaScript function that accepts a string as a parameter and converts the first letter into upper case. Example: “Javascript” => “Javascript”
 ## Ans 
 ```js
 let wrd = "javascript"
